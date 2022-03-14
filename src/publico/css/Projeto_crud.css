@@ -1,0 +1,30 @@
+body{
+    background-image: url(/publico/imagens/Floresta.jpg);
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#imagemform{
+    width: 150px;
+    border-radius: 50%;  
+}
+#emailHelp{
+    color: brown;
+}
+
+form{
+    margin: 40px;
+    background-color:rgb(111, 59, 196);
+}
+
+.cor:invalid{
+outline-color: red;
+}
+
+.cor:valid{
+    outline-color:green;
+    }
